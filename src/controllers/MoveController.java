@@ -1,9 +1,9 @@
 package controllers;
 
-import xo.Field;
-import xo.Figure;
-import xo.exceptions.AlreadyOccupiedException;
-import xo.exceptions.InvalidPointException;
+import model.Field;
+import model.Figure;
+import model.exceptions.AlreadyOccupiedException;
+import model.exceptions.InvalidPointException;
 
 import java.awt.*;
 
