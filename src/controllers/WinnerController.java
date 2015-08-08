@@ -6,9 +6,6 @@ import xo.exceptions.InvalidPointException;
 
 import java.awt.*;
 
-/**
- * Created by Даниил on 08.08.2015.
- */
 public class WinnerController {
 
     public Figure getWinner(final Field field) {

@@ -7,9 +7,6 @@ import xo.exceptions.InvalidPointException;
 
 import java.awt.*;
 
-/**
- * Created by Даниил on 08.08.2015.
- */
 public class MoveController {
 
     public void applyFigure(final Field field,
