@@ -41,7 +41,7 @@ public class WinnerController {
         final Point nextPoint = pointGenerator.next(currentPoint);
         try {
             currentFigure = field.getFigure(currentPoint);
-            nextFigure = field.getFigure(currentPoint);
+            nextFigure = field.getFigure(nextPoint);
         } catch(InvalidPointException e) {
             return true;
         }
