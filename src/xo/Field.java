@@ -6,9 +6,6 @@ import xo.exceptions.AlreadyOccupiedException;
 
 import java.awt.*;
 
-/**
- * Created by Даниил on 07.08.2015.
- */
 public class Field {
 
     public static final int MIN_COORDINATE = 0;

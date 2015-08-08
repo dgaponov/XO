@@ -1,8 +1,5 @@
 package xo;
 
-/**
- * Created by Даниил on 08.08.2015.
- */
 public class Game {
 
     private final Player[] players;
