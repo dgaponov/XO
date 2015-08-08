@@ -1,4 +1,4 @@
-package xo.exceptions;
+package model.exceptions;
 
 public class AlreadyOccupiedException extends AbstractXOException {
 }

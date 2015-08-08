@@ -1,8 +1,6 @@
-package xo;
+package model;
 
-import xo.exceptions.AlreadyOccupiedException;
-import xo.exceptions.InvalidPointException;
-import xo.exceptions.AlreadyOccupiedException;
+import model.exceptions.InvalidPointException;
 
 import java.awt.*;
 

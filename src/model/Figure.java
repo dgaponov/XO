@@ -1,4 +1,4 @@
-package xo;
+package model;
 
 public enum Figure {
 
