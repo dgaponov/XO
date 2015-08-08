@@ -117,7 +117,7 @@ public class WinnerControllerTest {
         field.setFigure(new Point(1, 1), inputFigure);
         field.setFigure(new Point(2, 2), Figure.X);
 
-        WinnerController winnerController = new WinnerController();
+        final WinnerController winnerController = new WinnerController();
         final Figure actualFigure = winnerController.getWinner(field);
 
         assertNull(actualFigure);
@@ -132,7 +132,7 @@ public class WinnerControllerTest {
         field.setFigure(new Point(1, 1), inputFigure);
         field.setFigure(new Point(0, 2), Figure.X);
 
-        WinnerController winnerController = new WinnerController();
+        final WinnerController winnerController = new WinnerController();
         final Figure actualFigure = winnerController.getWinner(field);
 
         assertNull(actualFigure);
